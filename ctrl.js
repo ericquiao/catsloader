@@ -34,32 +34,24 @@ function fetchPics() {
 
       let catsImgEl = document.createElement("img");
       catsImgEl.setAttribute("src", `${catsImgUrl}`);
-      catsImgEl.setAttribute("width", "auto")
-      
+      catsImgEl.setAttribute("width", "auto");
 
-     if (monitor == 1) {      
+      if (monitor == 1) {
         document.getElementById("placehere1").appendChild(catsImgEl);
-       }
-      else if (monitor == 2) {
+      } else if (monitor == 2) {
         document.getElementById("placehere2").appendChild(catsImgEl);
-       } 
-      else if (monitor == 3) {
-        
+      } else if (monitor == 3) {
         document.getElementById("placehere3").appendChild(catsImgEl);
-       } 
-      else if (monitor == 4) {
-       
+      } else if (monitor == 4) {
         document.getElementById("placehere4").appendChild(catsImgEl);
-       } 
-      else if (monitor == 5) {
-        
+      } else if (monitor == 5) {
         document.getElementById("placehere5").appendChild(catsImgEl);
-       } 
-      else if (monitor == 6) {
+      } else if (monitor == 6) {
         countNum.innerHTML = 0;
         document.getElementById("placehere6").appendChild(catsImgEl);
-       } 
- 
-     })
+      }
+    })
     .catch((err) => console.log(err));
 }
+
+//update
