@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-.maincontainerslider{
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+.maincontainerslider {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.containerslider{
+.containerslider {
   min-height: 50vh;
   display: flex;
   align-items: center;
 }
-.wrapper1{
+.wrapper1 {
   width: 100%;
 }
-.carousel1{
+.carousel1 {
   max-width: 1200px;
   margin: auto;
   padding: 0 30px;
 }
-.carousel1 .card1{
+.carousel1 .card1 {
   color: #fff;
   text-align: center;
   margin: 20px 0;
@@ -26,25 +26,24 @@
   font-size: 90px;
   font-weight: 600;
   border-radius: 10px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  width:100%
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
-.carousel1 .card-1{
+.carousel1 .card-1 {
   background: #9926f0;
 }
-.carousel1 .card-2{
-  background: #BB6EF5;
+.carousel1 .card-2 {
+  background: #bb6ef5;
 }
-.carousel1 .card-3{
-  background:  #D122E3;
+.carousel1 .card-3 {
+  background: #d122e3;
 }
-.carousel1 .card-4{
+.carousel1 .card-4 {
   background: #9926f0;
 }
-.carousel1 .card-5{
-  background: #BB6EF5;
+.carousel1 .card-5 {
+  background: #bb6ef5;
 }
-.carousel1 .card-6{
-  background:  #D122E3;
+.carousel1 .card-6 {
+  background: #d122e3;
 }
-
