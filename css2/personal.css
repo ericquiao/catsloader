@@ -47,3 +47,19 @@
 .carousel1 .card-6 {
   background: #d122e3;
 }
+
+.button-container{
+  display:inline-block;
+  position:relative;
+  }
+  
+  .button-container a{
+  position: absolute;
+  bottom:4em;
+  right:4em;
+  background-color:primary;
+  border-radius:1.5em;
+  color:white;
+  text-transform:uppercase;
+  padding:1em 1.5em;
+  }
