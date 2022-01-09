@@ -44,8 +44,20 @@ function fetchPics() {
         document.getElementById("placehere2").appendChild(catsImgEl);
        } 
       else if (monitor == 3) {
-        countNum.innerHTML = 0;
+        
         document.getElementById("placehere3").appendChild(catsImgEl);
+       } 
+      else if (monitor == 4) {
+       
+        document.getElementById("placehere4").appendChild(catsImgEl);
+       } 
+      else if (monitor == 5) {
+        
+        document.getElementById("placehere5").appendChild(catsImgEl);
+       } 
+      else if (monitor == 6) {
+        countNum.innerHTML = 0;
+        document.getElementById("placehere6").appendChild(catsImgEl);
        } 
  
      })
