@@ -9,19 +9,15 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
     <link rel="stylesheet" href="css2/owl.carousel.min.css">
     <link rel="stylesheet" href="css2/owl.theme.default.min.css"/>
-    <link rel="stylesheet" href="css2/personal.css">
- 
-    
-
-   
+    <link rel="stylesheet" href="css2/personal.css"> 
   </head>
   <body>
     <!-- START THE NAVBAR SECTION -->
-
+<section id="header">
     <nav class="navbar navbar-expand-lg navbar-dark menu">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="images/Logo.svg" alt="logo image" />
+          <img src="images/growth-graph.png" alt="logo image" />
         </a>
         <button
           class="navbar-toggler"
@@ -40,17 +36,15 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Header</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#content">Content</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">portfolio</a>
+              <a class="nav-link" href="#footer">Footer</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
-            </li>
+
           </ul>
           <button type="button" class="rounded-pill btn-rounded">
             +639321234567
@@ -61,9 +55,9 @@
         </div>
       </div>
     </nav>
-    
+  </section>    
     <!-- START SLIDERS -->
-  <section class="maincontainerslider"> 
+  <section class="maincontainerslider" id="content"> 
     <div class="containerslider">
       <div class="wrapper1">
         <div class="carousel1 owl-carousel">
@@ -83,10 +77,10 @@
 
     
     <!-- START LOAD MORE BUTTON -->
-
+<section id="content">
     <div class="container text-center">
-      <a href="#" class="generate_btn">
-        <button class="btn btn-secondary my-5">Load More</button>
+      <a href="#social" class="generate_btn">
+        <button class="btn btn-secondary my-5 text-light" >Load More</button>
       </a>
     </div>
 
@@ -102,11 +96,11 @@
         <button class="btn btn-primary">Back</button>
       </a>
     </div>
-    
+  </section>    
 
     <!-- START FOOTER SECTION -->
-
-    <footer class="footer">
+  
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="row">
           <!-- CONTENT FOR THE MOBILE NUMBER -->
@@ -191,7 +185,7 @@
       </div>
 
       <!-- START THE SOCIAL MEDIA CONTENT -->
-      <div class="footer-sm" style="background-color:#212121">
+      <div class="footer-sm" style="background-color:#212121" id="social">
         <div class="container">
           <div class="row py-4 text-center text-white">
             <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
@@ -210,7 +204,7 @@
       </div>
 
     </footer>
-
+ 
     <script src="/assets/js/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
