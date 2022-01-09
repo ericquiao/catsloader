@@ -7,9 +7,12 @@
     <title>EWAVE TEST ASSESSMENT</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css2/owl.carousel.min.css">
+    <link rel="stylesheet" href="css2/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css2/personal.css">
+ 
+    
+
    
   </head>
   <body>
@@ -43,12 +46,6 @@
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">faq</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">portfolio</a>
             </li>
             <li class="nav-item">
@@ -66,35 +63,25 @@
     </nav>
     
     <!-- START SLIDERS -->
+  <section class="maincontainerslider"> 
+    <div class="containerslider">
+      <div class="wrapper1">
+        <div class="carousel1 owl-carousel">
+           <div class="card1 card-1" id="placehere1">
+              <h1>Random</h1>
+           </div>
+           <div class="card1 card-2" id="placehere2">
+              <h1>Kitty</h1>
+           </div>
+           <div class="card1 card-3" id="placehere3">
+              <h1>Pics</h1>
+           </div>
 
-    <section class="section bg-light">  
-      <div class="wrapper">
-        <div class="carousel owl-carousel">
-           <div class="card card-1">
-              A
-              <div class="catsImgDiv1"></div>
-           </div>
-           <div class="card card-2">
-              B
-              <div class="catsImgDiv2"></div>
-           </div>
-           <div class="card card-3">
-              <div class="catsImgDiv3"></div>
-              C
-           </div>
-           <div class="card card-4">
-              <div class="catsImgDiv4"></div>
-              D
-           </div>
-           <div class="card card-5">
-              <div class="catsImgDiv5"></div>
-              E
-           </div>
         </div>
-      </div>
-    </section>
-   
+     </div>
+  </section> 
 
+    
     <!-- START LOAD MORE BUTTON -->
 
     <div class="container text-center">
@@ -102,9 +89,11 @@
         <button class="btn btn-secondary my-5">Load More</button>
       </a>
     </div>
+
     <div class="countNum">
-      <h1 class="text-center text-white">0</h1>
+      <h1 class="text-center text-light">0</h1>
     </div>
+   
 
     <!-- START BACK TO TOP BUTTON -->
 
@@ -223,28 +212,32 @@
     </footer>
 
     <script src="/assets/js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="ctrl.js"></script>
-    <script>
-      $(".carousel").owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        responsive: {
-          0:{
-            items:1,
-            nav: false
-          },
-          600:{
-            items:3,
-            nav: false
-          }
-          
-        }
-      });
-   </script>
 
-    
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          nav:false,
+          margin:10,
+          animateIn:'fadeIn',
+          animateOut:'fadeOut',
+          loop:false,
+          responsive:{
+            0:{
+              items:1,
+              nav:false
+            },
+            600:{
+              items:3
+            },
+            1000:{
+              items:3
+            }
+          }
+        });
+      });
+    </script>    
   </body>
 </html>
